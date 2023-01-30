@@ -1,0 +1,110 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.count-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 350px;
+  width: 400px;
+  border-radius: 12px;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  font-family: 'Roboto';
+}
+
+.count {
+  color: #0f172a;
+  font-size: 32px;
+}
+
+.number-category {
+  color: #334155;
+  font-size: 20px;
+}
+
+.increment-button {
+  color: #1e293b;
+  font-size: 12px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.note {
+  color: #334155;
+  font-size: 10px;
+}
+
+/*
+* {
+  box-sizing: border-box;
+}
+.bg-container {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-width: 500px;
+  margin: 50px;
+  border-radius: 15px;
+  min-height: 500px;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    max-width: 70%;
+    padding: 25px;
+    max-height: 55%;
+  }
+}
+.heading {
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Roboto';
+}
+
+.result {
+  color: #334155;
+  font-weight: 500;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+
+.btn {
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Roboto';
+  background-color: white;
+  border-radius: 8px;
+  border-width: 0px;
+  padding: 12px;
+}
+
+.description {
+  color: #334155;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+*/
